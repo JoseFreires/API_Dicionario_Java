@@ -1,7 +1,8 @@
 package model;
 
-import java.util.ArrayList;
+import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Map;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -10,34 +11,46 @@ import java.lang.reflect.Type;
 
 public class ExecuteDictionary {
 
-    public List<Word> getWordInformation(String json){
+    public Map<String, String> getWordInformation(String json){
         
+        Map<String, String> receiveApi = new LinkedHashMap<>();
         Gson gson = new Gson();
         Type wordDataType = new TypeToken<List<Word>>(){}.getType();
         List<Word> wordData = gson.fromJson(json, wordDataType);
 
+        Integer numberWord = 0;
+        Integer numberPartOfSpeech = 0;
+
         for(Word item : wordData){
-            System.out.println("Word: " + item.getWord());
+            numberWord++;
+            receiveApi.put("Word - " + numberWord, item.getWord());
+
             if(item.getMeanings() != null){
                 for(Meanings meanings : item.getMeanings()){
-                    System.out.println("Part of speech: " + meanings.getPartOfSpeech());
+                    numberPartOfSpeech++;
+                    receiveApi.put("PartOfSpeech - " + numberPartOfSpeech, meanings.getPartOfSpeech());
+
                     if(meanings.getDefinitions() != null){
+                        Integer numberDefinitions = 0;
+                        Integer numberExamples = 0;
                         for(Definition definition : meanings.getDefinitions()){
-                            System.out.println("Definition: " + definition.getName());
+                            numberDefinitions++;
+                            receiveApi.put("Definitions - " + numberDefinitions, definition.getName());
+
                             if(definition.getExample() != null){
-                                System.out.println("Example: " + definition.getExample());
+                                numberExamples++;
+                                receiveApi.put("Example - " + numberExamples, definition.getExample());
                             }
                         }
                     }
-                    System.out.println("-x-x-x-x-x-x-x-x-x-x-x-");
                 }
                 
             }
            
         }
 
-        List<Word> teste = new ArrayList<>();
+        
 
-        return teste;
+        return receiveApi;
     }
 }

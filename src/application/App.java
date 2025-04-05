@@ -1,5 +1,6 @@
 package application;
 
+import java.util.Map;
 import java.util.Scanner;
 
 import API.connection;
@@ -18,8 +19,12 @@ public class App {
         connection conn = new connection(); 
         String json = conn.connectAPI(api + answer); 
         ExecuteDictionary dic = new ExecuteDictionary();
-        dic.getWordInformation(json);
-        
+        Map<String, String> apiData = dic.getWordInformation(json);
+
+        for (String key : apiData.keySet()){
+            System.out.println("Key: " + key + ": " + apiData.get(key));
+        }
+
 
         sc.close();
     }
