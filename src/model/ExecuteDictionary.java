@@ -23,7 +23,7 @@ public class ExecuteDictionary {
 
         for(Word item : wordData){
             numberWord++;
-            receiveApi.put("Word - " + numberWord, item.getWord());
+            receiveApi.put("Word " + numberWord, item.getWord());
 
             if(item.getMeanings() != null){
                 for(Meanings meanings : item.getMeanings()){
