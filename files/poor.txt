@@ -1,0 +1,14 @@
+Word (1): poor
+PartOfSpeech (1|1): noun
+Definitions (1|1): With no or few possessions or money, particularly in relation to contemporaries who do have them.
+Example (1|1): We were so poor that we couldn't afford shoes.
+PartOfSpeech (1|2): adjective
+Definitions (1|2): Of low quality.
+Example (1|2): That was a poor performance.
+Definitions (1|3): Used to express pity.
+Example (1|3): Oh you poor little thing.
+Definitions (1|4): Deficient in a specified way.
+Example (1|4): Cow's milk is poor in iron.
+Definitions (1|5): Inadequate, insufficient.
+Example (1|5): I received a poor reward for all my hard work.
+Definitions (1|6): Free from self-assertion; not proud or arrogant; meek.

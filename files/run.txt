@@ -1,0 +1,58 @@
+Word (1): run
+PartOfSpeech (1|1): verb
+Definitions (1|1): In a liquid state; melted or molten.
+PartOfSpeech (1|2): noun
+Example (1|1): Put some run butter on the vegetables.
+Definitions (1|2): Cast in a mould.
+Example (1|2): run brandy
+Definitions (1|3): Exhausted; depleted (especially with "down" or "out").
+Example (1|3): He ran his best horse in the Derby.
+Definitions (1|4): (of a zoology) Travelled, migrated; having made a migration or a spawning run.
+Definitions (1|5): Smuggled.
+Definitions (1|6): To make run in a race or an election.
+Definitions (1|7): To exert continuous activity; to proceed.
+Definitions (1|8): To be presented in the media.
+Example (1|4): to run through life; to run in a circle
+Definitions (1|9): To print or broadcast in the media.
+Definitions (1|10): To smuggle (illegal goods).
+Definitions (1|11): To sort through a large volume of produce in quality control.
+Definitions (1|12): To extend or persist, statically or dynamically, through space or time.
+Example (1|5): Her picture ran on the front page of the newspaper.
+Definitions (1|13): To execute or carry out a plan, procedure or program.
+Example (1|6): run a story; run an ad
+Definitions (1|14): To pass or go quickly in thought or conversation.
+Example (1|7): to run guns; to run rum
+Definitions (1|15): To become different in a way mentioned (usually to become worse).
+Example (1|8): Looks like we're gonna have to run the tomatoes again.
+Definitions (1|16): To cost a large amount of money.
+Example (1|9): Don't run that software unless you have permission.
+Definitions (1|17): Of stitches or stitched clothing, to unravel.
+Definitions (1|18): To pursue in thought; to carry in contemplation.
+Example (1|10): to run from one subject to another
+Definitions (1|19): To cause to enter; to thrust.
+Definitions (1|20): To drive or force; to cause, or permit, to be driven.
+Example (1|11): Our supplies are running low.
+Definitions (1|21): To cause to be drawn; to mark out; to indicate; to determine.
+Definitions (1|22): To encounter or incur (a danger or risk).
+Definitions (1|23): To put at hazard; to venture; to risk.
+PartOfSpeech (1|3): verb
+Example (1|12): Buying a new laptop will run you a thousand dollars.
+Example (1|13): My stocking is running.
+Example (1|14): to run a sword into or through the body; to run a nail into one's foot
+Example (1|15): to run a line
+Example (1|16): to run the risk of losing one's life
+Definitions (1|24): To tease with sarcasms and ridicule.
+Definitions (1|25): To sew (a seam) by passing the needle through material in a continuous line, generally taking a series of stitches on the needle at the same time.
+Definitions (1|26): To control or have precedence in a card game.
+Example (1|17): Every three or four hands he would run the table.
+Definitions (1|27): To be in form thus, as a combination of words.
+Definitions (1|28): To be popularly known; to be generally received.
+Definitions (1|29): To have growth or development.
+Example (1|18): Boys and girls run up rapidly.
+Definitions (1|30): To tend, as to an effect or consequence; to incline.
+Definitions (1|31): To have a legal course; to be attached; to continue in force, effect, or operation; to follow; to go in company.
+Example (1|19): Certain covenants run with the land.
+Definitions (1|32): To encounter or suffer (a particular, usually bad, fate or misfortune).
+Definitions (1|33): To strike (the ball) in such a way as to cause it to run along the ground, as when approaching a hole.
+Definitions (1|34): To speedrun.
+PartOfSpeech (1|4): adjective

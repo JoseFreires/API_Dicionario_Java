@@ -1,4 +1,4 @@
-package model;
+package model.ObjAPI;
 
 import java.util.List;
 

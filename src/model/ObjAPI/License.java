@@ -1,4 +1,4 @@
-package model;
+package model.ObjAPI;
 
 public class License {
     private String name;

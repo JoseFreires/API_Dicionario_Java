@@ -1,0 +1,12 @@
+Word (1): camel
+PartOfSpeech (1|1): noun
+Definitions (1|1): Of a light brown color like that of a camel.
+Definitions (1|2): A light brownish color, like that of a camel (also called camel brown).
+Definitions (1|3): Loaded vessels lashed tightly, one on each side of another vessel, and then emptied to reduce the draught of the ship in the middle.
+PartOfSpeech (1|2): adjective
+Word (2): camel
+PartOfSpeech (2|3): noun
+Definitions (2|1): A ruminant, of the genus Giraffa, of the African savannah with long legs and highly elongated neck, which make it the tallest living animal; yellow fur patterned with dark spots, often in the form of a network; and two or more short, skin-covered horns, so-called; strictly speaking the horn-like projections are ossicones.
+Definitions (2|2): A giraffe unicycle.
+Definitions (2|3): A laugh.
+Example (2|1): Are you having a giraffe?!

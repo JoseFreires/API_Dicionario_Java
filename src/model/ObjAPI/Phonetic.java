@@ -1,4 +1,4 @@
-package model;
+package model.ObjAPI;
 
 public class Phonetic {
     private String audio;

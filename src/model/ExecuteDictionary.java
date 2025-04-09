@@ -7,6 +7,10 @@ import java.util.Map;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
+import model.ObjAPI.Definition;
+import model.ObjAPI.Meanings;
+import model.ObjAPI.Word;
+
 import java.lang.reflect.Type;
 
 public class ExecuteDictionary {
@@ -23,23 +27,23 @@ public class ExecuteDictionary {
 
         for(Word item : wordData){
             numberWord++;
-            receiveApi.put("Word " + numberWord, item.getWord());
+            receiveApi.put("Word (" + numberWord + ")", item.getWord());
 
             if(item.getMeanings() != null){
                 for(Meanings meanings : item.getMeanings()){
                     numberPartOfSpeech++;
-                    receiveApi.put("PartOfSpeech - " + numberPartOfSpeech, meanings.getPartOfSpeech());
+                    receiveApi.put("PartOfSpeech ("  + numberWord + "|" + numberPartOfSpeech + ")", meanings.getPartOfSpeech());
 
+                    Integer numberDefinitions = 0;
+                    Integer numberExamples = 0;
                     if(meanings.getDefinitions() != null){
-                        Integer numberDefinitions = 0;
-                        Integer numberExamples = 0;
                         for(Definition definition : meanings.getDefinitions()){
                             numberDefinitions++;
-                            receiveApi.put("Definitions - " + numberDefinitions, definition.getName());
+                            receiveApi.put("Definitions (" + numberWord + "|" + numberDefinitions + ")", definition.getName());
 
                             if(definition.getExample() != null){
                                 numberExamples++;
-                                receiveApi.put("Example - " + numberExamples, definition.getExample());
+                                receiveApi.put("Example (" + numberWord + "|" + numberExamples + ")", definition.getExample());
                             }
                         }
                     }
