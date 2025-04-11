@@ -1,4 +1,4 @@
-package model;
+package classes;
 
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -7,9 +7,9 @@ import java.util.Map;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
-import model.ObjAPI.Definition;
-import model.ObjAPI.Meanings;
-import model.ObjAPI.Word;
+import classes.ObjAPI.Definition;
+import classes.ObjAPI.Meanings;
+import classes.ObjAPI.Word;
 
 import java.lang.reflect.Type;
 
