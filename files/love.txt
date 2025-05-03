@@ -1,0 +1,27 @@
+Word (1): love
+PartOfSpeech (1|1): noun
+Definitions (1|1): (usually transitive, sometimes intransitive, stative) To have a strong affection for (someone or something).
+Definitions (1|2): To need, thrive on.
+Definitions (1|3): To be strongly inclined towards something; an emphatic form of like.
+Example (1|1): I love my spouse.   I love you!
+Definitions (1|4): (usually transitive, sometimes intransitive) To care deeply about, to be dedicated to (someone or something).
+Definitions (1|5): To derive delight from a fact or situation.
+Definitions (1|6): To have sex with (perhaps from make love).
+Definitions (1|7): An instance or episode of being in love; a love affair.
+Definitions (1|8): Used as the closing, before the signature, of a letter, especially between good friends or family members, or by the young.
+Definitions (1|9): Alternative letter-case form of Love.
+Definitions (1|10): A thin silk material.
+Definitions (1|11): A climbing plant, Clematis vitalba.
+PartOfSpeech (1|2): verb
+Example (1|2): Mold loves moist, dark places.
+Example (1|3): I love walking barefoot on wet grass;  I'd love to join the team;  I love what you've done with your hair
+Example (1|4): I love the fact that the coffee shop now offers fat-free chai latte.
+Example (1|5): I wish I could love her all night long.
+Word (2): love
+PartOfSpeech (2|3): verb
+Definitions (2|1): To praise; commend.
+Definitions (2|2): To praise as of value; prize; set a price on.
+Word (3): love
+PartOfSpeech (3|4): noun
+Definitions (3|1): (racquet sports) Zero, no score.
+Example (3|1): So that’s fifteen-love to Kournikova.

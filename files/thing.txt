@@ -1,0 +1,27 @@
+Word (1): thing
+PartOfSpeech (1|1): noun
+Definitions (1|1): To express as a thing; to reify.
+Definitions (1|2): A word, symbol, sign, or other referent that can be used to refer to any entity.
+Definitions (1|3): An individual object or distinct entity.
+Definitions (1|4): A genuine concept, entity or phenomenon; something that actually exists (often contrary to expectation or belief).
+Example (1|1): Bacon pie? Is that a thing?
+Definitions (1|5): Whatever can be owned.
+Definitions (1|6): Corporeal object.
+Definitions (1|7): (somewhat obsolete, with the) The latest fad or fashion.
+Definitions (1|8): (in the plural) Clothes, possessions or equipment.
+Example (1|2): Hold on, let me just grab my things.
+Definitions (1|9): A unit or container, usually containing edible goods.
+Example (1|3): get me a thing of apple juice at the store;  I just ate a whole thing of jelly beans
+Definitions (1|10): A problem, dilemma, or complicating factor.
+Example (1|4): The car looks cheap, but the thing is, I have doubts about its safety.
+Definitions (1|11): A penis.
+Definitions (1|12): A living being or creature.
+Example (1|5): you poor thing;  she's a funny old thing, but her heart's in the right place;  I met a pretty blond thing at the bar
+Definitions (1|13): That which matters; the crux.
+Example (1|6): that's the thing: we don't know where he went;  the thing is, I don't have any money
+Definitions (1|14): Used after a noun to refer dismissively to the situation surrounding the noun's referent.
+Example (1|7): Oh yeah, I'm supposed to promote that vision thing.
+Definitions (1|15): That which is favoured; personal preference. (Used in possessive constructions.)
+Definitions (1|16): A public assembly or judicial council in a Germanic country.
+Definitions (1|17): A romantic relationship.
+PartOfSpeech (1|2): verb

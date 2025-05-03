@@ -25,8 +25,8 @@ public class History {
         listWord.remove(item);
     }
 
-    public void removeItemById(Integer posicao){
-        listWord.remove(posicao);
-    }
+    // public void removeItemById(Integer posicao){
+    //     listWord.remove(posicao);
+    // }
     
 }

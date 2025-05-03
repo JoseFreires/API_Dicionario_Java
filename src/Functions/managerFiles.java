@@ -1,4 +1,4 @@
-package functions;
+package Functions;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -10,7 +10,7 @@ public class managerFiles {
 
     public boolean managing(Map<String, String> apiData, String currentWord) throws IOException{
         if(createFiles(currentWord)){
-            writingFile(apiData, currentWord);
+            creatingAndWritingFile(apiData, currentWord);
         } else{
             System.out.println("It's not possible write on this file.");
         }
@@ -18,15 +18,16 @@ public class managerFiles {
         return true;
     }
 
-    public boolean writingFile(Map<String, String> apiData, String currentWord){
-        String path = "C:\\Users\\jose.freires\\Desktop\\Projects_Dev\\My Projects\\JavaProjects\\DicionarioJava\\files\\" + currentWord + ".txt";
+    public boolean creatingAndWritingFile(Map<String, String> apiData, String currentWord){
+        // String path = "C:\\Users\\jose.freires\\Desktop\\Projects_Dev\\My Projects\\JavaProjects\\DicionarioJava\\files\\" + currentWord + ".txt";
+        String path = "C:\\Users\\User\\Desktop\\Pastas\\Serious Things\\Folder_Developer\\Java\\Dicionario_Java\\files\\" + currentWord + ".txt" ;
 
         try(BufferedWriter bw = new BufferedWriter(new FileWriter(path))){
             for(String key : apiData.keySet()){
                 bw.write(key + ": " + apiData.get(key));
                 bw.newLine();
             }
-            System.out.println("Writed!");
+            System.out.println("Created and Writed!");
         }catch (IOException e){
             System.out.println(e.getMessage());
         }
@@ -34,22 +35,25 @@ public class managerFiles {
     }
 
     public boolean createFiles(String currentWord) throws IOException{
-        try{
+        // try{
             
-            File path = new File("C:\\Users\\jose.freires\\Desktop\\Projects_Dev\\My Projects\\JavaProjects\\DicionarioJava\\files\\" + currentWord + ".txt");
+        //     // File path = new File("C:\\Users\\jose.freires\\Desktop\\Projects_Dev\\My Projects\\JavaProjects\\DicionarioJava\\files\\" + currentWord + ".txt");
+        //     File path = new File("C:\\Users\\User\\Desktop\\Pastas\\Serious Things\\Folder_Developer\\Java\\Dicionario_Java\\files\\" + currentWord + ".txt");
 
-            if(path.createNewFile()){
-                System.out.println("Created!");
-                return true;
-            } else {
-                System.out.println("Already exists");
-                return false;
-            }
+        //     if(path.createNewFile()){
+        //         System.out.println("Created!");
+        //         return true;
+        //     } else {
+        //         System.out.println("Already exists");
+        //         return false;
+        //     }
 
-        } catch (IOException e){
-            System.out.println(e.getMessage());
-            return false;
-        }
+        // } catch (IOException e){
+        //     System.out.println(e.getMessage());
+        //     return false;
+        // }
+
+        return true;
 
     }
 }

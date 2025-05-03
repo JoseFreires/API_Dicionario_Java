@@ -1,10 +1,14 @@
 package classes;
 
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 
 public class ItemHistory {
+    private Integer indice;
     private String word;
     private LocalDateTime dateTimeHistory;
+
+    DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm");
 
     public ItemHistory() {
     }
@@ -29,7 +33,7 @@ public class ItemHistory {
 
     @Override
     public String toString() {
-        return "Palavra: " + word + "| Data: (" + dateTimeHistory + ")";
+        return ") " + word + " | Data: (" + dateTimeHistory.format(fmt) + ")";
     }
 
     

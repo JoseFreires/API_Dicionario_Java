@@ -1,0 +1,8 @@
+Word (1): nothing
+PartOfSpeech (1|1): noun
+Definitions (1|1): Not any thing; no thing.
+Definitions (1|2): An absence of anything, including empty space, brightness, darkness, matter, or a vacuum.
+Definitions (1|3): A nobody (insignificant person).
+Example (1|1): You're nothing to me now!
+PartOfSpeech (1|2): adverb
+PartOfSpeech (1|3): pronoun

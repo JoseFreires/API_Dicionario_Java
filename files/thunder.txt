@@ -1,0 +1,11 @@
+Word (1): thunder
+PartOfSpeech (1|1): noun
+Definitions (1|1): To produce thunder; to sound, rattle, or roar, as a discharge of atmospheric electricity; often used impersonally.
+Example (1|1): It thundered continuously.
+Definitions (1|2): To make a noise like thunder.
+Example (1|2): The train thundered along the tracks.
+Definitions (1|3): To talk with a loud, threatening voice.
+Definitions (1|4): To say (something) with a loud, threatening voice.
+Definitions (1|5): To produce something with incredible power
+Example (1|3): "Get back to work at once!", he thundered.
+PartOfSpeech (1|2): verb
